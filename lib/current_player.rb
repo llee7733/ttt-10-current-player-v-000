@@ -1,4 +1,4 @@
-def turn_counter(board)
+def turn_count(board)
   counter = 0
   board.each do |taken|
     if taken == "X" || taken == "O"
